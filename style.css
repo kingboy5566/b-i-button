@@ -1,0 +1,44 @@
+.main{
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+}
+.ch1{
+    width: 100%;
+    height: 35px;
+   text-align: center;
+    border: 1px solid gold;
+}
+.ch1 button {
+    padding: 3px 3px;
+    margin-top: 4px;
+   
+}
+.ch2{
+    width: 100%;
+    text-align: center;
+}
+.bold{
+    font-weight: 900;
+}
+.itc{
+    font-style: italic;
+}
+.itlc{
+    font-style: italic;
+}
+.under{
+    text-decoration: underline;
+}
+.jst{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.jleft{
+    text-align: left;
+}
+.jright{
+    text-align: right;
+}
