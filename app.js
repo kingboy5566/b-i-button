@@ -1,4 +1,18 @@
 
+// function itilic(){
+//     var itc1 = document.querySelector("texterea")
+//     itc1.classList.add("itlc")
+// }
+var texterea = document.getElementById("text1")
+function f1(e){
+    var value = e.value;
+    texterea.style.fontSize = value + "px";
+
+}
+
+
+
+
 function itilic(){
     document.getElementById("text1").className="itc"
 }

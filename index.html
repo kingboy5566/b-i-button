@@ -10,17 +10,29 @@
 </head>
 <body>
     <div class="main">
+        <div class="row1">
 <div class="ch1">
-<button onclick="itilic()" class="itlc">I</button>   
-<button onclick="bold()">B</button>
-<button onclick="underline()" class="under">U</button>
+ <input type="number" id="font-size"  min="1" max="100" value="16" onchange="f1(this)"></div>
+    
+
+
+ <div class="ch2">
+<button  onclick="bold()"class="itlc"><i class="fa-solid fa-bold"></i></button>   
+<button onclick="itilic()"><i class="fa-solid fa-italic"></i></button>
+<button onclick="underline()" class="under"><i class="fa-solid fa-underline"></i></button></div>
+
+
+<div class="ch3">
 <button onclick="jst()"><i class="fa-solid fa-align-justify"></i></button>
 <button onclick="center()" ><i class="fa-solid fa-align-center"></i></button>
 <button onclick="jleft()" ><i class="fa-solid fa-align-left" ></i></button>
-<button onclick="jright()"><i class="fa-solid fa-align-right"></i></button>
-</div >
-<div class="ch2">
-    <textarea name="" id="text1" cols="50" rows="10" placeholder="text here...."></textarea>
+<button onclick="jright()"><i class="fa-solid fa-align-right"></i></button></div></div>
+
+
+
+
+<div class="row2">
+    <textarea  id="text1" cols="50" rows="10" placeholder="text here...."></textarea>
 
 </div>
 
