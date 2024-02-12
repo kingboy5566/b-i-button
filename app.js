@@ -34,3 +34,27 @@ function jleft(){
 function jright(){
     document.getElementById("text1").className="jright"
 }
+
+function upAndlo(e){
+   if (texterea.style.textTransform == "upperCase"){
+    texterea.style.textTransform ="none";
+   }else{
+    texterea.style.textTransform ="upperCase";
+   }
+}
+
+
+function t(e){
+    texterea.style.fontWeight = "normal";
+    texterea.style.fontAlign = "left";
+    texterea.style.fontstyle = "normal";
+    texterea.style.textTransform = "capitalize";
+    texterea.value = " "
+}
+
+
+function color(e){
+    let value = e.value ;
+    texterea.style.color = value;
+}
+

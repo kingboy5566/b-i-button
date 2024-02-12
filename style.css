@@ -1,18 +1,33 @@
+body{ background-color: aqua;
+
+}
+
+
 .main{
 
-    width: 100%;
-    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+ 
 }
 .row1{
-    width: 100%;
-    height: 30px;
+    width: 79%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40px;
     display: flex;
-    align-content: space-between;
+    align-content:space-around;
     padding: 0px 5px;
+    box-shadow: 4px 4px 5px rgb(102, 100, 100);
+    background-color: white;
     
 }
+.row2{
+    margin-top: 3%;
+}
 .ch1{
-    width: 12%;
+    width: 9%;
     padding: 5px;
     border-right: 2px solid gray; 
 }
@@ -21,11 +36,12 @@ input[type=number]{
     outline: none;
     border: none;
     font-size: 20px;
-    width: 50px;
+    width: 80px;
     padding: 3px 0px;
 
 }
 button{
+    
     border: none;
     font-size: 15px;
     font-weight: 300;
@@ -40,9 +56,21 @@ button{
     border-right: 2px solid gray; 
     
 }
+.ch4{
+    width: 20%;
+    padding-top: 3px;
+    border-right: 2px solid gray; 
+
+}
 
 
+input[type=color]{
+    outline: none;
+    border: none;
+    width: 50px;
+    
 
+}
 
 
 
@@ -72,9 +100,11 @@ button{
     text-align: right;
 }
 textarea{
-    width: 100%;
-    height: 200px;
-    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300px;
+    margin-top: 5px;
     border-radius: 3px;
     box-sizing: border-box;
     border-top: 1px solid black;
